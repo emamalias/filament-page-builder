@@ -2,6 +2,8 @@
 
 namespace Emamalias\FilamentPageBuilder;
 
+use Emamalias\FilamentPageBuilder\Commands\FilamentPageBuilderCommand;
+use Emamalias\FilamentPageBuilder\Testing\TestsFilamentPageBuilder;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Emamalias\FilamentPageBuilder\Commands\FilamentPageBuilderCommand;
-use Emamalias\FilamentPageBuilder\Testing\TestsFilamentPageBuilder;
 
 class FilamentPageBuilderServiceProvider extends PackageServiceProvider
 {
